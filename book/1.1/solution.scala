@@ -1,4 +1,4 @@
-val theList: List[Int] = List(1, 2, 3, 4, 5) // 
+val theList: List[Int] = List(1, 2, 3, 4, 5) // => List(120, 60, 40, 30, 24)
 
 // Simple reduction and map
 def getProductListDivision(list: List[Int]): List[Int] = {

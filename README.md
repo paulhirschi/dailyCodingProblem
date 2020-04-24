@@ -10,7 +10,7 @@ Languages I hope to use soon:
 * Haskell
 * Rust
 
-I try to solve each problem primarily in a Functional style, favoring immutability and recursion. I then try to find good solutions imperatively using iteration and mutable state.
+I try to solve each problem primarily in a Functional style, favoring immutability and recursion. I then try to find good solutions imperatively using iteration and (as little as possible) mutable state.
 
 I don't suppose my solutions to be the best solutions, and am primarily eager to find new and better ways to think about problems.
 

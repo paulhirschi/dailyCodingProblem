@@ -1,4 +1,4 @@
-Solutions to [Daily Coding Problem](https://www.dailycodingproblem.com/) problems in multiple languages. [Book](https://github.com/paulhirschi/dailyCodingProblem/tree/master/book/) contains solutions to problems from [Daily Coding Problem](https://www.amazon.com/dp/1793296634/ref=cm_sw_em_r_mt_dp_U_JTTOEbDZV6EWC) the book. Other solutions are from the Daily Coding Problem email subscription.
+Solutions to [Daily Coding Problem](https://www.dailycodingproblem.com/) problems in multiple languages. [book](https://github.com/paulhirschi/dailyCodingProblem/tree/master/book/) contains solutions to problems from [Daily Coding Problem](https://www.amazon.com/dp/1793296634/ref=cm_sw_em_r_mt_dp_U_JTTOEbDZV6EWC) the book. Other solutions are from the Daily Coding Problem email subscription.
 
 Languages so far:
 * Scala

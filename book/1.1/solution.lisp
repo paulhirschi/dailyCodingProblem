@@ -28,7 +28,7 @@
             ;; make recursive call
             (get_product_list_rec (rest li) prefix accum)))))
 
-
+(format t "Should be: ~a" '(120 60 40 30 24))
 (print (get_product_list_division *the_list*) )
 (print (get_product_list_rec *the_list* nil nil) )
 

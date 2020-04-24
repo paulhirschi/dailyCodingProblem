@@ -1,4 +1,5 @@
-(defvar *the_list* '(1 2 3 4 5)) ;; => (120 60 40 30 24)
+(defvar *the_list* '(1 2 3 4 5))
+(defvar *answer* '(120 60 40 30 24))
 
 ;;; Get the product list using division
 ;;; Find product of entire list using a reducing scheme
@@ -28,7 +29,7 @@
             ;; make recursive call
             (get_product_list_rec (rest li) prefix accum)))))
 
-(format t "Should be: ~a" '(120 60 40 30 24))
+
 (print (get_product_list_division *the_list*) )
 (print (get_product_list_rec *the_list* nil nil) )
 

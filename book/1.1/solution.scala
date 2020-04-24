@@ -1,4 +1,5 @@
-val theList: List[Int] = List(1, 2, 3, 4, 5) // => List(120, 60, 40, 30, 24)
+val theList: List[Int] = List(1, 2, 3, 4, 5)
+val answer: List[Int] = List(120, 60, 40, 30, 24)
 
 // Simple reduction and map
 def getProductListDivision(list: List[Int]): List[Int] = {
@@ -20,6 +21,6 @@ def getProductListRec(rest: List[Int], prefix: List[Int], acc: List[Int]): List[
     }
 }
 
-println(s"Should be: ${List(120, 60, 40, 30, 24)}")
+
 println( getProductListDivision(theList) )
 println( getProductListRec(theList, Nil, Nil) )

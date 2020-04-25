@@ -14,13 +14,11 @@ def getProductListRec(rest: List[Int], prefix: List[Int], acc: List[Int]): List[
   rest match {
     case Nil => acc
     case x :: xs => {
-      val product = prefix.product * xs.product
       val newPrefix = prefix :+ x
-      val newAccum = acc :+ product
+      val newAccum = acc :+ (prefix.product * xs.product)
       getProductListRec(xs, newPrefix, newAccum)
     }
 }
-
 
 println( getProductListDivision(theList) )
 println( getProductListRec(theList, Nil, Nil) )

@@ -32,4 +32,3 @@
 
 (print (get_product_list_division *the_list*) )
 (print (get_product_list_rec *the_list* nil nil) )
-

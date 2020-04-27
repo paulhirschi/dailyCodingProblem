@@ -16,6 +16,8 @@ const getProductListRec = (list, prefix, acc) => {
   else {
     const [head, ...tail] = list
     const product = prefix.reduce(productReduce, 1) * tail.reduce(productReduce, 1)
+    // .push() is a much more straightforward approach to appending,
+    // but its a mutator that changes the original value, so concat works
     const newPrefix = prefix.concat([head])
     const newAcc = acc.concat([product])
     return getProductListRec(tail, newPrefix, newAcc)

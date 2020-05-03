@@ -2,7 +2,7 @@ val theList: List[Int] = List(1, 2, 3, 4, 5)
 val answer: List[Int] = List(120, 60, 40, 30, 24)
 
 // Simple reduction and map
-def getProductListDivision(list: List[Int]): List[Int] = {
+def getProductListDivision: List[Int] => List[Int] = list => {
   val product = list.product // list.reduceLeft(_ * _) list.foldLeft(1)(_ * _)
   list map (product / _)
 }
@@ -18,7 +18,7 @@ def getProductListRec(rest: List[Int], prefix: List[Int], acc: List[Int]): List[
       val newAccum = acc :+ (prefix.product * xs.product)
       getProductListRec(xs, newPrefix, newAccum)
     }
-}
+  }
 
 println( getProductListDivision(theList) )
 println( getProductListRec(theList, Nil, Nil) )

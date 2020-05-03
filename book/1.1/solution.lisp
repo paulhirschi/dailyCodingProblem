@@ -1,5 +1,5 @@
-(defvar *the_list* '(1 2 3 4 5))
-(defvar *answer* '(120 60 40 30 24))
+(defvar *final_L* '(1 2 3 4 5))
+(defvar *final_A* '(120 60 40 30 24))
 
 ;;; Get the product list using division
 ;;; Find product of entire list using a reducing scheme
@@ -22,7 +22,8 @@
                 prefix (append pref (list (first li)))
                 ;; suffix is reduce of * over rest of li
                 suffix (apply '* (rest li))
-                ;; prod is * of suffix (tail end of list) with reduce of * over prefix butlast 1 (excluding current index)
+                ;; prod is * of suffix (tail end of list) with reduce of * over
+                ;; prefix butlast 1 (excluding current index)
                 prod (* suffix (apply '* (butlast prefix 1)))
                 ;; append prod to acc for new accum
                 accum (append acc (list prod)))

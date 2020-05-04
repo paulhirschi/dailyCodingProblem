@@ -2,7 +2,8 @@ Solutions to [Daily Coding Problem](https://www.dailycodingproblem.com/) problem
 
 Languages so far:
 * Scala
-* CLisp
+* Common Lisp
+* Swift
 * Python
 * JavaScript
 

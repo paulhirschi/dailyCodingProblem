@@ -4,6 +4,7 @@ Languages so far:
 * Scala
 * Lisp
 * Swift
+* Kotlin
 * Python
 * JavaScript
 
